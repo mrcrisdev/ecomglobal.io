@@ -1,49 +1,52 @@
 import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import MainBanner from "@/components/HomeDemo1/MainBanner";
-import Features from "@/components/HomeDemo1/Features";
-import IntroVideo from "@/components/HomeDemo1/IntroVideo";
-import BestAppEver from "@/components/HomeDemo1/BestAppEver";
-import KeyFeatures from "@/components/HomeDemo1/KeyFeatures";
-import AppProgressStyle1 from "@/components/Common/AppProgressStyle1";
-import AppDownloadStyle1 from "@/components/Common/AppDownloadStyle1";
-import AppScreenshotsStyle1 from "@/components/AppScreenshots/AppScreenshotsStyle1";
-import SoftwareIntegrations from "@/components/Common/SoftwareIntegrations";
-import PricingPlanStyle1 from "@/components/PricingPlan/PricingPlanStyle1";
-import ClientFeedbackStyle1 from "@/components/Feedbacks/ClientFeedbackStyle1";
-import FreeTrialStyle1 from "@/components/Common/FreeTrialStyle1";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
+import NavbarStyleTwo from "@/components/Layouts/NavbarStyleTwo";
+import MainBanner from "@/components/HomeDemo7/MainBanner";
+import Features from "@/components/HomeDemo7/Features";
+import AboutUsContent from "@/components/HomeDemo7/AboutUsContent";
+import KeyFeatures from "@/components/HomeDemo7/KeyFeatures";
+import AppProgress from "@/components/HomeDemo7/AppProgress";
+import AppScreenshots from "@/components/HomeDemo7/AppScreenshots";
+import BestAppEver from "@/components/HomeDemo7/BestAppEver";
+import AppIntroVideo from "@/components/HomeDemo7/AppIntroVideo";
+import PricingTable from "@/components/HomeDemo7/PricingTable";
+import AppDownload from "@/components/HomeDemo7/AppDownload";
+import SoftwareIntegrations from "@/components/HomeDemo7/SoftwareIntegrations";
+import ClientFeedback from "@/components/HomeDemo7/ClientFeedback";
+import Newsletter from "@/components/HomeDemo7/Newsletter";
+import FooterStyleFour from "@/components/Layouts/FooterStyleFour";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <NavbarStyleOne />
+      <NavbarStyleTwo />
 
       <MainBanner />
 
       <Features />
 
-      <IntroVideo />
-
-      <BestAppEver />
+      <AboutUsContent />
 
       <KeyFeatures />
 
-      <AppProgressStyle1 />
+      <AppProgress />
 
-      <AppDownloadStyle1 />
+      <AppScreenshots />
 
-      <AppScreenshotsStyle1 />
+      <BestAppEver />
+
+      <AppIntroVideo />
+
+      <PricingTable />
+
+      <AppDownload />
 
       <SoftwareIntegrations />
 
-      <PricingPlanStyle1 />
+      <ClientFeedback />
 
-      <ClientFeedbackStyle1 />
+      <Newsletter />
 
-      <FreeTrialStyle1 />
-
-      <FooterStyleOne />
+      <FooterStyleFour />
     </>
   );
 }
