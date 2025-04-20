@@ -41,7 +41,7 @@ const NavbarStyleTwo: React.FC = () => {
             <nav className="navbar navbar-expand-md navbar-light bg-light">
               <Link href="/" className="navbar-brand">
                 <Image
-                  src="/images/black-logo.png"
+                  src="/images/ecomglobal.png"
                   alt="logo"
                   width={138}
                   height={44}
@@ -75,7 +75,7 @@ const NavbarStyleTwo: React.FC = () => {
 
               <div className="others-options">
                 <Link href="/contact" className="default-btn">
-                  Get Started
+                  Bắt đầu
                 </Link>
               </div>
             </nav>
