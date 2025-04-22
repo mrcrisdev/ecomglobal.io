@@ -20,8 +20,8 @@ import AosAnimation from "@/components/Layouts/AosAnimation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Texap - React Nextjs Software App & SaaS Startup Template",
-  description: "React Nextjs Software App & SaaS Startup Template",
+  title: "Ecom Global - Together for Success",
+  description: "Ecom Global là #1 giải pháp Website toàn diện, an toàn, tối ưu chi phí. Chúng tôi tạo ra giá trị mà bạn sẽ không tìm được ở bất kỳ đâu.",
 };
 
 export default function RootLayout({
